@@ -1,0 +1,87 @@
+.container1 {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        &__flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button {
+                padding: 14px 30px;
+                font-size: 15px;
+                border: 2px solid #9494ff;
+                border-radius: 30px;
+                background: none;
+                cursor: pointer;
+                a {
+                    text-decoration: none;
+                    color: #9494ff;
+                }
+            }
+        }
+        &__one {
+            font-size: 50px;
+            color: white;
+            font-family: sans-serif;
+            margin-bottom: 20px;
+        }
+        &__p {
+            color: rgba(255, 255, 255, 0.482);
+            font-family: sans-serif;
+            font-size: 15px;
+            
+        }
+    }
+    .font {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .font-card {
+            border-bottom: none;
+            overflow-x: visible;
+            cursor: text;
+            h3 {
+                opacity: 0;
+            }
+            p {
+                white-space: unset;
+                max-height: 100px;
+                overflow-y: hidden;
+            }
+        }
+    }
+    .font-card:hover {
+        border: 0px;
+        background-color: unset;
+        transition: unset;
+
+        .fade-out {
+            background: unset;
+            background: unset;
+        }
+    }
+    .fonto {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        &__font-cardo {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.482);
+            span {
+                color: rgba(255, 255, 255, 0.482);
+            }
+            p {
+                color: white;
+                font-size: 40px;
+            }
+        }
+    }
+
+}

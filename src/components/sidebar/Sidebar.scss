@@ -1,0 +1,56 @@
+.fonts {
+    padding: 50px 50px 0 25px;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    &__box {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #9494ff;
+        border-radius: 10px;
+        background-color: #2b2b36;
+        height: 100%;
+        width: 300px;
+        color: white;
+        padding: 20px;
+        &__h3 {
+            color: #6d6dff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #27274a;
+            border-radius: 10%;
+        }
+        &__block {
+            display: flex;
+            width: 250px;
+            gap: 12px;
+            flex-direction: column;
+            p {
+                color: rgba(255, 255, 255, 0.373);
+            }
+            .btn {
+              padding: 10px 20px;  
+              max-width: 130px;
+              background-color: unset;
+              border:2px solid #6d6dff;
+              color: #6d6dff;
+              cursor: pointer;
+            }
+        }
+    }
+    .copyy {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.492);
+        background-color: #38384d;
+        width: 300px;
+        height: 100%;
+        border-radius: 15px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        margin-top: 10px;
+        code {
+            font-size: 12px;
+        }
+    }
+}
